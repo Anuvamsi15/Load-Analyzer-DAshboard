@@ -16,5 +16,4 @@ COPY . .
 
 EXPOSE 8501
 
-# Added flags to prevent browser hanging/CORS issues
 CMD ["streamlit", "run", "v1.py", "--server.port=8501", "--server.address=0.0.0.0"]
